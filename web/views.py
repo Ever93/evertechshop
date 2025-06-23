@@ -52,3 +52,9 @@ def productoDetalle(request,producto_id):
     }
     
     return render(request,'producto.html',context)
+
+
+""" Vista para el carrito de compras"""
+
+def carrito(request):
+    return render(request,'carrito.html')
