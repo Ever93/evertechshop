@@ -23,4 +23,6 @@ urlpatterns = [
         name="eliminarProductoCarrito",
     ),
     path("limpiarCarrito", views.limpiarCarrito, name="limpiarCarrito"),
+    path('crearUsuario',views.crearUsuario,name='crearUsuario'),
+    path('cuenta',views.cuentaUsuario,name='cuentaUsuario')
 ]
