@@ -6,6 +6,7 @@ from django.contrib.auth import login,logout,authenticate
 from .forms import ClienteForm
 # ojo desde aqui para la funcion que quiero aplicar para whatsapp
 from django.contrib.auth.decorators import login_required
+from django.conf import settings
 
 # Create your views here.
 """ Vistas para el catalogo de productos """
